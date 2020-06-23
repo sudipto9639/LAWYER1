@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* position: absolute; */
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    /* color: white; */
+    margin-bottom: 17px;
+}
+img{
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-top: 21px;
+}
+header{
+    background-color: color="#ffffff";
+    
+    background-color: #f7f3f3;
+    height: 70px;
+}
+.container{
+    width: 1060px;
+    margin: auto;
+    overflow: hidden;
+   
+}
+nav{
+    width: 80%;
+    float: left;
+}
+.nav-effect::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #4f5570;
+    transition: width .3s;
+}
+.nav-effect:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+nav h4{
+    color: #2b2f85;
+}
+nav ul{
+    
+margin-top: 37px;
+}
+nav ul li{
+    float: right;
+    margin-left: 20px;
+    display: inline-block;
+}
+nav ul li a{}
+nav ul li h4:hover{
+    color: #f47838;
+}
+/**** banner section**/
+.banner-section{
+    
+background-image:url(../images/banner2.png), url(../images/banner.png);
+    
+min-height: 700px;
+    
+background-repeat: no-repeat;
+    
+position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%; */
+    text-align: center;
+}
+.banner-content h1{
+    color: white;
+    font-size: 81px;
+    font-weight: 600;
+}
+.banner-section a{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-2px, -78px);
+    font-size: 26px;
+    color: white;
+}
+.banner-section hover:a{}
+/****who we are section****/
+.who-we-are{
+    margin-top: 168px;
+    overflow: hidden;
+}
+.whoweare-content{
+    wdidyh: 70%;
+    width: 70%;
+    float: left;
+    padding: 22px 144px 0px 0px;
+}
+.whoweare-content .heading{
+    margin: 0px 0px 20px 0px;
+}
+.heading::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #f47838;
+    transition: width .3s;
+    margin-bottom: 10px;
+}
+.heading:hover::before{
+    width: 20%;
+    transition: width .3s;
+}
+.whoweare-content .heading h1{
+    color: #2b2f85;
+    font-size: 30px;
+    font-weight: 800;
+}
+.whoimage{
+    width: 30%;
+    float: left;
+}
+.whoweare-content p{}
+.whoimage img{}
+
+/*** what we do***/
+.what-we-do{
+    margin-top: 67px;
+    background-image: url(../images/wedobg.png);
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-color: #f7f8f8;
+    background-position: right bottom;
+    position: relative;
+}
+.heading h2{
+    /* color: #2b2f85; */
+    color: #2b2f85;
+    font-size: 30px;
+    font-weight: 800;
+}
+.what-we-do h4{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.what-we-do .heading{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    /* transition: translate; */
+    transform: translate(-140px, 10px);
+}
+
+.what-we-do a{
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    transform: translate(6%, -130%);
+    font-size: 27px;
+    color: white;
+}
+.whatwedo-image{width: 33.33%;float: left;position: relative;padding: 150px 5px 0px;}
+/***attorney-section**/
+.attorney-section{
+    min-height: 800px;
+    background-image: url(../images/attorneybg.png);
+    background-repeat: no-repeat;
+}
+.attorney-heading{
+    width: 30%;
+    float: left;
+    padding: 362px 84px 750px 0px;
+}
+.attorney-heading h1::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #f47838;
+    transition: width .3s;
+}
+.attorney-heading h1:hover::before{
+    width: 15%;
+    transition: width .3s;
+}
+.attorney-heading h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.see-more{
+    color: #f2622c;
+    font-size: 17px;
+    font-weight: 1000;
+    /* padding: 10px 10px; */
+    /* margin-top: 10px; */
+}
+.attroney-part{
+    width: 70%;
+    float: left;
+    padding: 210px 0px;
+}
+.attorney-images{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.attorney-images a{}
+.attorney-images h2{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/*****our-languages***/
+.our-languages{
+    min-height: 700px;
+    position: relative;
+}
+.languages-heading{
+    padding: 145px 44px 105px 338px;
+}
+.languages-heading h1{
+    color: #2b2f85;
+    font-size: 30px;
+    font-weight: 800;
+}
+.languages-box{
+    width: 25%;
+    float: left;
+}
+.languages-box h1{
+    color: #2b2f85;
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.languages-box a{}
+.languages-box p{
+    padding: 0px 10px 10px 0px;
+}
+/**contact section start**/
+.contact{
+    min-height: 700px;
+    background-color: #2d3c80;
+    positin: relative;
+    /* position: relative; */
+    margin-top: 150px;
+}
+.contact-header{
+    /* position: absolute; */
+    /* top: 10%; */
+    /* padding: 20px 0px 60px 80px; */
+    /* margin-bottom: 100px; */
+    padding-top:  100px 0px 30px 50px;
+    padding: 101px 0px 61px 367px;
+}
+.contact-header h1{
+    color: white;
+    font-size: 37px;
+    font-weight: 800;
+}
+.contact-form{
+    width: 50%;
+    margin: auto;
+}
+form{}
+form input{
+    width: 100%;
+    background-color: #ff000000;
+    border: none;
+    border-bottom: 1px solid #8080806b;
+    padding: 10px;
+    margin-bottom: 27px;
+    color: white;
+}
+form textarea{
+    width: 100%;
+    background-color: #ff000000;
+    border: none;
+    border-bottom: 1px solid #8080806b;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.button{
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #f47838;
+    padding: 15px 59px;
+}
+textarea:focus, input:focus{
+    outline: none !important;
+    border-bottom: 1px solid #f47838 !important;
+}
+footer{
+    min-height: 93px;
+    background-color: #02021d;
+}
+.copyright{
+    width: 30%;
+    float: left;
+    margin-top: 25px;
+}
+.social{
+    width: 70%;
+    float: right;
+    color: white;
+}
+.social ul{}
+.social ul li{
+    float: right;
+    margin: 22px 20px;
+    font-size: 24px;
+}
+.copyright p{
+    color: #2d3c80;
+}
